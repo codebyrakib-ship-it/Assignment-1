@@ -86,3 +86,114 @@ nav a:hover {
     transform: scale(1.05);      
     transition: 0.3s ease;       
 }
+
+/* Hero Section Fix */
+.btn-primary:hover {
+    background-color: #16a34a;    
+    box-shadow: 0 8px 20px rgba(34, 197, 94, 0.4);  
+    transform: translateY(-3px);   
+}
+
+/* outline button */
+.btn-outline:hover {
+    background-color: rgba(255, 255, 255, 0.1);  
+    border-color: #ffffff;                       
+}
+.hero-section {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('assets/hero-bg.png'); 
+    background-size: cover;
+    background-position: center;
+    padding: 0 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+.hero-container {
+    max-width: 900px;
+    text-align: center;  
+}
+
+ 
+.early-access-tag {
+    margin-bottom: 30px;
+}
+
+.early-access-tag span {
+    background: rgba(250, 250, 250, 0.897);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #4ade80;  
+    padding: 8px 20px;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/* Big heading */
+.hero-title {
+    font-size: 72px;  
+    font-weight: 800;
+    color: #ffffff;  
+    line-height: 1.1;
+    margin-bottom: 25px;
+    letter-spacing: -2px;
+}
+
+.text-green {
+    color: #22c55e;  
+}
+
+/* Description */
+.hero-subtitle {
+    font-size: 18px;
+    color: #94a3b8;  
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto 40px;
+}
+
+/* Button style */
+
+.hero-action-btns {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.btn-fill:hover {
+    background-color: #16a34a;  
+    transform: translateY(-3px);  
+    transition: 0.3s ease;       
+    box-shadow: 0 10px 15px rgba(34, 197, 94, 0.3);  
+}
+.btn-border:hover {
+    background-color: rgba(255, 255, 255, 0.1);  
+    border-color: #ffffff;                       
+    transition: 0.3s ease;
+}
+/* akahana all hover   */
+
+.btn-fill {
+    background-color: #22c55e;
+    color: white;
+    padding: 16px 32px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.btn-border {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    padding: 16px 32px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+ 
